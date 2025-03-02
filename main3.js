@@ -2,7 +2,7 @@
 //  Use both the if/else statement and tenary operator.
 
 
-let a = 5
+let a = 20
 let b = 20
 
 
@@ -18,4 +18,12 @@ function greaterNumberChecker(num1, num2) {
 
 }
 
+function greaterNumberCheckerTenary (num1, num2){
+   return num1 > num2 ? "num1 is greater" :  num1 < num2 ? "num2 is greater" : "numbers are equal"
+
+   
+   
+}
+
 console.log(greaterNumberChecker(a, b))
+console.log(greaterNumberCheckerTenary(a,b))
