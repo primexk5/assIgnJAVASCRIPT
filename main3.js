@@ -2,8 +2,8 @@
 //  Use both the if/else statement and tenary operator.
 
 
-let a = 20
-let b = 20
+let a = ""
+let b = ""
 
 
 function greaterNumberChecker(num1, num2) {
@@ -25,5 +25,5 @@ function greaterNumberCheckerTenary (num1, num2){
    
 }
 
-console.log(greaterNumberChecker(a, b))
-console.log(greaterNumberCheckerTenary(a,b))
+console.log(greaterNumberChecker(9, 5))
+console.log(greaterNumberCheckerTenary(9,66))

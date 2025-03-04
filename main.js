@@ -32,5 +32,5 @@ function numberCheaker  (number){
 }
 
 
-console.log(numberCheaker(-7))
+console.log(numberCheaker( ))
 

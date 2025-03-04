@@ -3,6 +3,10 @@
 //   age below 60 pay a ticket price of 20, age over 60 play a ticket price of 15.
 
 function ticketPrices (age) {
+
+    if (age <= 0){
+        return "error"
+    }
     if (age <= 12){
         return "your ticket price is 5"
     }
@@ -20,6 +24,8 @@ function ticketPrices (age) {
     if (age > 60 ){
         return "your ticket price is 15"
     }
+
+   
 }
 
-console.log(ticketPrices (58))
+console.log(ticketPrices (1))
